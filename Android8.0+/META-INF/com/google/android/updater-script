@@ -1,0 +1,13 @@
+ui_print("**********************************************");
+ui_print("* /e/ Nextcloud Integration OTA Zip by qwow5 *");
+ui_print("* For Android 8.0+                           *");
+ui_print("*                                            *");
+ui_print("* https://github.com/qwow5/eNextcloudOTAzip  *");
+ui_print("**********************************************");
+ui_print("");
+ui_print("Flashing...");
+mount("yaffs2", "MTD", "system", "/system");
+package_extract_dir("system", "/system");
+unmount("/system");
+ui_print("Success!");
+

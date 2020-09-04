@@ -1,6 +1,8 @@
 # eCloudOTAzip
 An Android OTA flashable zip that contains the Account Manager and eDrive apps from /e/.
 
+This allows non-/e/ ROMS (e.g LineageOS) to integrate with /e/ Cloud and Nextcloud servers.
+
 Requies Android 7.0 or later.
 
 More information [here](https://doc.e.foundation/what-s-e#3-description-of-e-online-services-at-ecloudglobal)
